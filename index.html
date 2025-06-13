@@ -8,40 +8,42 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Mundo de Campo e Cidade</h1>
-    </header>
-    <main>
-        <button onclick="alternarTema()">Alternar Tema</button>
-        <div class="imagem-container">
-            <img id="imagem" src="campo.jpg" alt="Imagem do Campo">
-        </div>
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campo e Cidade</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
         <h1>Explorando o Campo e a Cidade</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
     <main>
-        <div class="container">
-            <div class="image-box">
-                <img src="campo.jpg" alt="Imagem do Campo">
-                <p>Vida no campo: tranquilidade e natureza.</p>
+        <section id="sobre">
+            <h2>Sobre o Tema</h2>
+            <p>O campo e a cidade representam modos de vida distintos. Enquanto o campo traz tranquilidade e contato com a natureza, a cidade proporciona inovação e movimento constante.</p>
+        </section>
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="container">
+                <div class="image-box">
+                    <img src="campo.jpg" alt="Imagem do Campo">
+                    <p>Campo: espaço aberto, natureza e paz.</p>
+                </div>
+                <div class="image-box">
+                    <img src="cidade.jpg" alt="Imagem da Cidade">
+                    <p>Cidade: tecnologia, cultura e dinamismo.</p>
+                </div>
             </div>
-            <div class="image-box">
-                <img src="cidade.jpg" alt="Imagem da Cidade">
-                <p>Vida na cidade: movimento e inovação.</p>
-            </div>
-        </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>
