@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impactos do Desmatamento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    header {
+      background-color: #1b5e20;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #1b5e20;
+    }
+
+    .impacto {
+      background: #c8e6c9;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .botao-voltar {
+      display: block;
+      margin: 20px auto;
+      background: #43a047;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .botao-voltar:hover {
+      background: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Impactos do Desmatamento</h1>
+    <p>Entenda os efeitos da destruição das florestas no planeta</p>
+  </header>
+
+  <section>
+    <h2>O que é o desmatamento?</h2>
+    <p>O desmatamento é a remoção total ou parcial da cobertura vegetal de uma área, geralmente para dar lugar a atividades humanas, como agricultura, pecuária e urbanização.</p>
+  </section>
+
+  <section>
+    <h2>Principais Impactos</h2>
+    <div class="impacto">
+      <h3>🌍 Aquecimento Global</h3>
+      <p>As árvores capturam CO₂. Quando são derrubadas, liberam esse gás na atmosfera, agravando o efeito estufa.</p>
+    </div>
+    <div class="impacto">
+      <h3>💧 Redução da qualidade da água</h3>
+      <p>Sem a vegetação, os rios ficam mais vulneráveis à erosão e poluição.</p>
+    </div>
+    <div class="impacto">
+      <h3>🐒 Perda de biodiversidade</h3>
+      <p>Animais e plantas perdem seu habitat natural, podendo entrar em extinção.</p>
+    </div>
+    <div class="impacto">
+      <h3>🌾 Impacto nas populações locais</h3>
+      <p>Comunidades indígenas e ribeirinhas dependem da floresta para viver e são diretamente afetadas pelo desmatamento.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/DesmatamentoAmazonia.jpg/640px-DesmatamentoAmazonia.jpg" alt="Desmatamento na Amazônia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Burning_forest_in_Brazil.jpg/640px-Burning_forest_in_Brazil.jpg" alt="Floresta em chamas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Desmatamento2.jpg" alt="Área desmatada">
+    </div>
+  </section>
+
+  <button class="botao-voltar" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    Voltar ao topo
+  </button>
+
+  <footer>
+    <p>Fontes: IBGE, WWF, Greenpeace | Desenvolvido por Daniele</p>
+  </footer>
+
+</body>
+</html>
